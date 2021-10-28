@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
+body{
+    background-color: rgb(207, 196, 163); 
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+nav{
+    font-family: 'Oswald', sans-serif;
+    background-color: rgb(29, 26, 26);
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    height: 65px;
+    color: rgb(240, 222, 215);
+    padding: 0 12px;
+}
+
+
+.brand img{
+    width: 50px;
+    height: 50px;
+    padding: 0 1    2px;
+}
+.container{
+    color: white;
+    background-color: black;
+    font-family: "Zen Kurenaido", sans-serif;
+    height: 625px;
+    text-align: center;
+    padding: auto;
+    border-radius: 15px;
+    background-image:url(../Spotify/bg.jpg);
+    font-family: bolder;
+}
+
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size:1.3rem;
+}
+
+
+.bottom{
+    position: relative;
+    height: 100px;
+    background-color: black;
+    bottom: 20vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;   
+    flex-direction: column;
+}
+
+.icons{
+    margin-top: 12px;
+    cursor: pointer;
+}
+
+.songItem{
+    height: 50px;
+    display: flex;
+    background-image: url(./bg.jpg);
+    width: 17%;
+    color: rgb(168, 165, 132);
+    padding: 0 12px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 80px;
+}
+.songItem img{
+    width: 44px;
+    /* margin-left: 23px; */
+    border-radius: 80px;
+}
+
+#myProgressBar{
+    width: 80vw;
+    text-align: center;
+}
+
+.songlistPlay i{
+    cursor: pointer;
+}
+
+.anotherLayer{
+    position: relative;
+    left: 350px;
+    bottom: 550px;
+}
+
+#Spacing{
+    margin: 22px 0px;
+    justify-content: space-between;
+}
+.songInfo{
+    position: absolute;
+    left: 10vw;
+    font-family: 'Oswald', sans-serif;
+}
+.songInfo img{
+    opacity: 0;
+    transition: opacity 1s ease-in;
+}
+.anotherLayers{
+    position: relative;
+    left: 700px;
+    bottom: 1000px;
+}
+.songList{
+    height: 90vh;
+}
+#myProgressBar{
+    cursor:pointer;
+}
