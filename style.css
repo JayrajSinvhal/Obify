@@ -30,13 +30,12 @@ nav ul{
 }
 .container{
     color: white;
-    background-color: black;
     font-family: "Zen Kurenaido", sans-serif;
     height: 625px;
     text-align: center;
     padding: auto;
     border-radius: 15px;
-    background-image:url(bg.jpg);
+    background-image: url(./bg.jpg);
     font-family: bolder;
 }
 
