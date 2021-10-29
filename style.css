@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&display=swap');
 body{
-    background-color: rgb(207, 196, 163); 
+    background-image: url(./bg.jpg);
 }
 
 *{
@@ -35,7 +35,6 @@ nav ul{
     text-align: center;
     padding: auto;
     border-radius: 15px;
-    background-image: url(./bg.jpg);
     font-family: bolder;
 }
 
